@@ -1,0 +1,38 @@
+/* 权限管理 */	
+.tabs-header{	
+	border:none!important;
+	/* border-top:1px solid #8DB2E3!important; */
+}
+.tabs-panels{
+	border:none!important;
+}
+.tf-toolbar{
+	border-top:none!important;
+} 
+/* 数据字典 */
+.datagrid-wrap{
+	border-top: 1px solid #95b8e7!important;
+}
+/* 权限管理 */
+.datagrid-pager{
+	position:static!important;
+}  
+/* 日志 */
+.tabs-panels{height:100%;}
+.downloadcon{
+	width:100%;
+	height:30px;
+	line-height: 30px;	
+	border:none;
+	border-bottom:1px solid #8DB2E3;
+	background:#E0ECFF;
+}
+.detailinfo{
+	border-top:1px solid #8DB2E3;
+	border-bottom:1px solid #8DB2E3;
+	width:100%;height:30px;
+	line-height:30px;
+	background:#E0ECFF;
+	color:#0e2d5f;
+	text-indent:10px;
+}

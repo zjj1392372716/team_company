@@ -1,0 +1,72 @@
+@charset "UTF-8";
+*{margin:0;padding:0;margin:0 auto;font-size:12px;font-family:"微软雅黑"}
+.mW{margin:10px 0px 10px 10px;}
+.dataGet{ 
+	width:770px;
+	height:28px;
+	margin-top:10px;
+}
+.dataGet_contents{   		
+	width:265px;
+	height:28px;
+	float:left;
+}
+input.probox {
+	border:1px solid #95b8e7;
+	background-color:transparent;
+	width:133px;
+	height:24px;
+	border-radius:5px;
+	margin-right: 5px
+}
+.floatLeft{
+	float: left;
+}
+.symbol{
+	width:10px;  
+	height:15px;
+	color:red;
+}
+.contents_letter{        
+	width:90px; 
+	height:28px;
+	line-height:28px;
+	float:left;
+	text-align:left;
+	margin-top:-1px;
+	font-weight:bold;
+	text-indent:3px;
+}
+.labelContents{
+	height:35px;
+	width:100%;
+	margin:0 auto; 
+	white-space:nowrap;
+}
+.bgColor{
+	background:#5cacee;
+	color:white;
+	margin-right:10px;
+	width:80px;
+	height:28px;
+	margin-top:3px;
+}
+.icon-teda{
+	background:url(../icon/building.png)no-repeat!important;
+	margin-top:2px;	
+}
+.icon-parent{
+	background:url(../icon/iconchild.png)no-repeat!important;	
+}
+.icon-child{
+	background:url(../icon/treePic.png)no-repeat!important;	
+}
+.verticalBtn{
+	width:8%;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+    position:relative;
+	left:730px;
+	top:-80%; 
+}

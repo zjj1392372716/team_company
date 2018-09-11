@@ -1,0 +1,127 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	background:url(../login/img/bg_user.png);
+	background-size: cover;
+    background-attachment: fixed;
+}
+.content{
+	position: relative;
+	margin: 465px auto;
+}
+.content .container .row{
+	height: 202px;
+}
+.content .container .row .col-lg-3{
+	height: 156px;
+	text-align: center;
+}
+.content .container .row .col-md-6{
+	height: 156px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.wrap{
+	position: relative;
+	margin: 68px auto;
+	background-image:linear-gradient(-30deg, #1d37fa 0%, #1fccfd 100%);
+	box-shadow:0 0 7px 0 rgba(29,53,113,0.61);
+	width:200px;
+	height:200px;
+	text-align: center;
+	border: 1px solid;
+	border-radius:8px ;
+	cursor: pointer;
+}
+.wrap:hover{
+	background-image:linear-gradient(-30deg, #7282f9 0%, #1fccfd 100%);
+}
+.wrap:active{
+	background-image:linear-gradient(-30deg, #0b21c8 0%, #0b99c1 100%);
+}
+.warp img{
+	width: 50px;
+	height: 50px;
+}
+.icon-name{
+    top: -35px;
+	color: white;
+	display: inline-block;
+	position: relative;
+	font-size: 28px;
+}
+
+.lbimg {
+    margin-top: 66px; 
+    height: 64px;
+    width: 64px;
+}
+table th{
+	width: 100px;
+	height: 30px;
+}
+
+.ul-wrap{
+	width: 1388px;
+    position: relative;
+    top: 80px;;
+    margin: 20px auto;
+    overflow: auto;
+    height: 711.8px;
+}
+.ul-wrap .identityName-list li{
+    background: rgb(127,145,168,0.4);
+    border-radius: 16px;
+    width: 1362px;
+    height: 88px;	
+    margin-top: 16px;
+    font-family: PingFangSC-Regular;
+    font-size: 28px;
+    color: #ffffff;
+    letter-spacing: 0.88px;
+    text-align: left;
+    padding-left: 75px;
+    line-height: 88px;
+    cursor: pointer;
+}
+.ul-wrap .identityName-list li:nth-child(1){
+	 margin-top: 0px;
+}
+.identityName-list{
+	 width: 1362px;
+	 height:711.8;
+}
+.ul-wrap .identityName-list li:hover{
+	 background: rgb(127,145,168,0.7);
+}
+
+
+
+
+
+.ul-wrap::-webkit-scrollbar {
+	width: 4px;
+	height: 1px;
+}
+		
+.ul-wrap::-webkit-scrollbar-thumb {
+	opacity:0.55;
+	background:#7f91a8;
+	border-radius:4px;
+	width:1px;
+	height:130px;
+		
+}
+		
+.ul-wrap::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+			
+}
+
+
+				
+
+

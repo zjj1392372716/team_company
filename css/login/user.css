@@ -1,0 +1,9 @@
+body,*{
+	padding: 0px;
+	margin: 0px;
+	font-family:"Î¢ÈíÑÅºÚ"
+}
+body{
+	background: url("../login/img/yuan_login.png"),url("../loginimg/bg_login2.png");
+	
+}

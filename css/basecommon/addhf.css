@@ -1,0 +1,45 @@
+@charset "UTF-8";
+*{margin:0;padding:0;margin:0 auto;font-size:12px;font-family:"微软雅黑"}
+.mW{margin:10px 0px 10px 10px;}
+.hf_inputbox{
+		width: 172px;
+  	    height: 28px;
+   	    margin-top: -32px;       
+   	    margin-left:123px; 
+	}
+	.hf_symbol {
+    width: 10px;
+    height: 15px;
+    color: red;
+    width: 10px;
+    height: 15px;
+    color: red;
+}
+.hf_floatLeft {
+    float: left;
+}
+.hf_contents_letter {
+    width: 100px;
+    height: 28px;
+    line-height: 28px;    
+    text-align: left;
+    float:right;
+    margin-top: -7px;
+    font-weight: bold;
+    text-indent: 3px;
+ }
+ .hf_dataGet_contents {
+    width: 265px;
+    height: 28px;
+    float: left;
+}
+.hf_dataGet {
+    width: 770px;
+    height: 28px;
+    margin-top: 10px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}

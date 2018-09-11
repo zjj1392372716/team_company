@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* reset */
+*{margin:0;padding:0;}
+a{blr:expression(this.onFocus=this.blur())}
+:focus{outline:0;}
+a,button{cursor: pointer;}
+button{outline:none;border:0;}
+label{cursor:pointer;}
+a,img{border:0;}
+
+.title_letter{
+	height:43px;
+	text-align:center;
+	color:#e8161d;
+	font-size:43px;
+	font-weight:bold;
+	margin-top:50px;
+	text-indent:20px;
+	line-height:40px;
+}

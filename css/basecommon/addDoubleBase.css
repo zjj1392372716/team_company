@@ -1,0 +1,520 @@
+*{margin:0;padding:0;margin:0 auto;font-size:12px;font-family:"鐎甸偊鍣ｉ弫鎾诲棘閵堝棗顏堕梺璺ㄥ枙閸撳ジ鎮�涙ê顏�"}
+.floatLeft{
+	float: left;
+}
+.borderLine{
+	border:1px solid #8db2e3;
+}
+.fontstyle{font-weight:normal;}
+.fontweight{font-weight:bold!important;}
+span,a{display:inline-block;}
+a{text-decoration:none;}
+.displayNone{visibility: hidden;}
+/*********闂佽法鍠愰弸濠氬箯妞嬪海鐭忛梺璺ㄥ枔缁劑寮搁崟顖涙櫢闁哄倶鍊栫�氬綊鏌ㄩ悢鍛婄伄闁瑰嘲鍢插ù姗�鏌ㄩ悢鍛婄伄闁瑰嘲鍢插ù姗�鏌ㄩ悢鍛婄伄闁瑰嚖鎷�**************/
+.tree-node{
+	height:21px!important;
+}
+.icon-teda{
+	background:url(../icon/building.png)no-repeat!important;
+	margin-top:2px;	
+}
+.icon-parent{
+	background:url(../icon/iconchild.png)no-repeat!important;	
+}
+.icon-child{
+	background:url(../icon/treePic.png)no-repeat!important;	
+}
+.icon-car{
+	background:url(../icon/lorry.png)no-repeat!important;	
+}
+/*******闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氬綊鏌ㄩ悢鍛婄伄闁归鍏橀弫鎾诲棘閵堝棗顏堕梺璺ㄥ枔鐎氭稒瀵煎▎鎰伓*******/
+.icon-carstate2{/* 闂佽法鍠撶�氭稒瀵煎▎鎰伓 */
+    background: url('../icon/icon-carstate2.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+}
+.icon-carstate3{/* 闂佽法鍠愮敮瀵哥驳鐟欏嫬顏� */
+    background: url('../icon/icon-carstate3.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+}
+/* .postponed{闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氾拷
+    background: url('../icon/postponed.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+} */
+.icon-carstate4{/* 闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柨鐕傛嫹 */
+    background: url('../icon/clock_stop.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+}
+.icon-carstate5{/* 闁告瑦鐗犻弫鎾诲棘閵堝棗顏� */
+    background: url('../icon/cancel.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+}
+/***************** 闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氬綊鎮╅懜纰夋嫹娴ｅ憡绂堥梺璺ㄥ枑閺嬪骞忛敓锟� ******************/
+/* .icon-state6{闂佽法鍠栭妶鐑樻綇閻愵剙顏�
+    background: url('../icon/icon-state6.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+}
+.icon-state7{闂佽法鍠愮敮瀵哥驳鐟欏嫬顏�
+    background: url('../icon/icon-state7.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+}
+.icon-state8{
+    background: url('../icon/icon-state8.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+}
+.icon-state9{
+    background: url('../icon/icon-state9.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+}
+.icon-state10{闂佽法鍠庤ぐ銊ф媼鐟欏嫬顏�
+    background: url('../icon/icon-state10.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+}
+.icon-state11{闁哄牜浜濇晶浠嬫煥閻斿憡鐏柟鍑ゆ嫹
+	 background: url('../icon/icon-state11.png')no-repeat 0 2px;
+     background-size: 14px 14px;
+}
+.icon-state12{闂佽法鍠愰弸濠氬箯闁垮顦ч梺璺ㄥ枑閺嬪骞忛悜鑺ユ櫢闁跨噦鎷�
+	 background: url('../icon/icon-state12.png')no-repeat 0 2px;
+     background-size: 14px 14px;
+}
+.icon-state13{闁哄牜浜弫鎾诲棘閵堝棗顏堕梺璺ㄥ櫐閹凤拷
+	 background: url('../icon/icon-state13.png')no-repeat 0 2px;
+     background-size: 14px 14px;
+}
+.icon-state14{闂佽法鍠愰弸濠氬箯闁垮鍓�
+	 background: url('../icon/icon-state14.png')no-repeat 0 2px;
+     background-size: 14px 14px;
+}
+.icon-state15{闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氾拷
+	 background: url('../icon/icon-state15.png')no-repeat 0 2px;
+     background-size: 14px 14px;
+}
+.icon-state16{闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柨鐕傛嫹
+	 background: url('../icon/icon-state16.png')no-repeat 0 2px;
+     background-size: 14px 14px;
+}
+.icon-state18{闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氾拷
+    background: url('../icon/icon-state18.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+}
+.icon-state19{闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氾拷
+    background: url('../icon/icon-state19.png')no-repeat 0 2px;
+    background-size: 14px 14px;
+} */
+/**********************/
+.numberstyle{
+	position: relative;
+    right: -90px;
+    top: -18px;
+    width: 30px;
+}
+.mianBody{
+	width:770px;
+	height:256px;
+}
+.dataGet{ 
+	width:770px;
+	height:28px;
+	margin-top:10px;
+}
+.dataGet_contents{   		
+	width:265px;
+	height:28px;
+	float:left;
+}
+.newdatacontents{
+	width:325px;
+}
+.contents{  	 
+	width:350px;
+	height:28px;
+	margin-top:8px;
+	margin-left:10px;
+}
+.contentsf{  	 
+	width:350px;
+	height:28px;
+	margin-top:8px;
+	margin-left:10px;
+}
+/*闂佽法鍠愰弸濠氬箯閻戣姤鏅搁悶娑欘殘娴煎棙瀵煎▎鎰伓婵﹥澹嗗ú浼存煥閻斿憡鐏柟鍑ゆ嫹*/
+.labelLetterCon{ 
+	width:280px;
+	height:27px;
+	margin-top:8px;
+	margin-left:20px;
+}
+.labelLetterCon label{ 
+	width:105px;
+	height:28px;
+	text-align:center;
+	margin-left:8px;
+	line-height:28px;
+}
+.promptBoxInput{
+	width:150px;
+	height:27px;
+	border:1px solid #8db2e3;
+	border-radius:5px;
+	line-height:27px;
+	text-align:left;
+	margin-left:65px;
+	float:right;
+	text-indent:5px;
+	margin-right:15px;
+}
+/***********/
+/*.contents label{
+	width:105px;
+	height:28px;
+	text-align:center;
+	margin-left:8px;
+	line-height:28px;
+}*/
+.symbol{
+	width:10px;  
+	height:15px;
+	color:red;
+	width:10px;			
+	height:15px;
+	color:red;
+}
+.blank{ 
+/*闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氬綊鏌ㄩ悢鍛婄伄闁圭柉娓圭粻锝夋煥閻斿憡鐏柟鐑筋棑濞叉澘鐣烽銏℃櫢闁跨噦鎷�*/
+	display:inline-block;
+	width:26px;
+	height:20px;
+}
+.contents_letter{        
+	width:90px; 
+	height:28px;
+	line-height:28px;
+	float:left;
+	text-align:left;
+	margin-top:-1px;
+	font-weight:bold;
+	text-indent:3px;
+}
+.newconterletters{
+	width:180px;
+}
+.third{
+	/*闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氬綊鏌ㄩ悢鍛婄伄闁圭柉娓圭粻锝夋煥閻斿憡鐏柟鐑筋棑濞蹭即鏌ㄩ悢鑽ょ獩闁跨噦鎷�*/
+	letter-spacing:4.5px;
+	line-height:28px;
+}
+.rightTitle{
+	width:45px;
+	height:28px;
+	line-height:28px;
+	float:left;
+}
+.mbottom{
+	width:172px;
+	height:28px;
+	margin-left:113px;
+	margin-top:-29px;
+}
+.mTop{
+	width:150px;
+	height:27px;
+	margin-top:-42px;
+	margin-left:105px;
+}
+.promptBox{
+	width:172px;
+	height:27px;
+	border:1px solid #8db2e3;
+	border-radius:5px;
+	line-height:27px;
+	text-align:left;
+	margin-left:0px;
+	float:right;
+	margin-right:65px;
+	text-indent:5px;	
+}
+.blank{
+	display:inline-block;
+	width:26px;
+	height:20px;
+}
+.sele_box{
+	width:200px;
+	height:28px;
+}
+.sele_inputbox{
+	width:172px;
+	height:28px;
+	margin-left:113px;
+}
+.textbox combo{
+	width:172px;
+	margin-top:-30px;
+}
+.sp-replacer{
+	border-radius:5px;
+	width:172px;
+	height:27px;
+	line-height:27px;
+}  
+.special{
+	width:172px;
+	height:28px;
+	margin-left:4px;
+}
+.talksession{
+	float:left;
+	margin-top:10px;
+	
+}
+/*闁哥儐鍨粩鎾煥閻斿憡鐏柟椋庡厴閺佹捇寮妶鍡楊伓閻犲洣绶氶弫鎾诲棘閵堝棗顏堕柟顓ㄦ嫹*/
+#verify{
+	color:red;
+	font-size:11px;
+	position:relative;left:129px;top:4px;
+	display:inline;
+	font-style:italic;
+}
+#verify1{
+	color:red;
+	font-size:11px;
+	position:relative;left:129px;top:4px;
+	display:inline;
+	font-style:italic;
+}
+/**************************************/
+/**********闂佽法鍠栭崣娲偖鐎涙ê顏堕梺璺ㄥ枑閺嬪骞忛柨瀣╃礀缁绢収鍣ｉ弫鎾诲棘閵堝棗顏跺銈囨暬閺佹捇寮妶鍡楊伓*************/
+.infocontent{
+		width:360px;
+		height:350px;
+		clear:both;
+}
+.warningpic{
+		width:46px;
+		height:40px;
+		background:url(../icon/oilsurepic.png)no-repeat;
+		float:left;
+		margin-left:10px;
+}
+.mainLetter{
+		width:300px;
+		height:350px;
+		float:left;
+}	
+.borNone{
+	border:none;
+	line-height:27px;
+	text-align:left;
+	color:red;
+	font-size:15px;
+	position: relative;top:0px;left:-25px;
+	font-weight:bold;
+}
+/******************************/
+.sureBtnCon{
+	height:37px;
+	width:100%;
+	background:#f4f4f4;
+	border-top:1px solid #dddddd;
+	position:relative;
+	top:58px;
+	left:0;
+}
+.sureBtn{
+	width:90px;
+	height:25px;
+	position:relative;
+	left:190px;
+	top:6px;
+	border:1px solid #bbbbbb;
+	border-radius:5px;
+}
+.sureBtnpic{
+	width:38px;
+	height:25px;
+	float:left;
+	margin-top:-1px;
+	background:url(../icon/ok.png)no-repeat center right;
+}
+.submits{
+	border:none;
+	height:23px;
+	float:left;
+	text-align:left;
+	background-color: transparent;
+	text-indent:3px;
+}
+.sureBtn:hover{
+	background:#eaf2ff;
+	border:1px solid #b7d2ff;
+}
+.cancelBtn{
+	width:90px;
+	height:25px;
+	position:relative;
+	left:290px;
+	top:-19.5px;
+	border:1px solid #bbbbbb;
+	border-radius:5px;
+}
+.cancelBtnpic{
+	width:38px;
+	height:25px;
+	float:left;
+	margin-top:-1px;
+	background:url(../icon/cancel.png)no-repeat center right;
+}
+.cancels{
+	border:none;
+	height:23px;
+	line-height:23px;
+	float:left;
+	text-align:left;
+	background-color: transparent;
+	text-indent:3px;
+}
+.cancels:hover{
+	color:black;	
+	text-decoration:none;
+	cursor:pointer;
+}
+.cancelBtn:hover{
+	background:#eaf2ff;
+	border:1px solid #b7d2ff;
+}
+/*****************************/
+.mW{margin:10px 12px 10px 10px;}
+.mc{margin:0  12px 7px 10px;}
+.mL{margin-right:5px;}
+.mlabel{margin:10px 12px 10px 10px;}
+.mR {margin-right:5px;}
+.labelCon{height:40px;width:100%;white-space:nowrap;}
+.labelContents{height:40px;width:100%;margin:0 auto; white-space:nowrap;}/*闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氬綊鏌ㄩ悢鍛婄伄闁归鍏橀弫鎾诲棘閵堝棗顏堕梺璺ㄥ枑閺嬪骞忛敓锟�*/
+.btnCon{
+	width:160px;
+	height:40px;	
+	position:relative;
+	left:830px;
+	top:-37px;
+}
+.bgColor{
+	background:#5cacee;
+	color:white;
+	margin-right:10px;
+	width:80px;
+	height:28px;
+	margin-top:3px;
+}
+.aBtn{
+	width:160px;
+	height:30px;
+	line-height:35px;
+	position:absolute;
+	left:1070px;
+	top:35px;
+}
+.searchClear{
+	width:160px;
+	height:30px;
+	line-height:35px;
+	position:absolute;
+	left:550px;
+	top:33px;
+}
+.aBtncon{
+	width:160px;
+	height:30px;
+	line-height:35px;
+	position:absolute;
+	left:680px;
+	top:30px;
+}
+.warnBtncon{
+	width:160px;
+	height:30px;
+	position:absolute;
+	left:706px;
+	top:30px;
+}
+.labCon{
+	height:36px;
+	min-width:300px;
+	white-space:nowrap;
+}
+.btnContents{
+	width:200px;
+	height:40px;
+	line-height:40px;
+	position:absolute;
+	left:970px;
+	top:53px;
+}
+.buttonContent{
+	width:160px;
+	height:40px;
+	line-height:40px;
+	position:absolute;
+	left:750px;top:59px;
+}
+.verticalBtn{/* 闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氬綊鏌ㄩ悢鍛婄伄闁归鍏橀幐鎶芥煥閻斿憡鐏柟鐑筋棑濞插潡鏌ㄩ悢娲绘晭閻犲泧鍕伓 */
+	width:8%;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+    position:relative;
+	left:730px;
+	top:-80%; 
+}
+
+/****闂佽法鍠愰弸濠氬箯閻戣姤鏅搁柡鍌樺�栫�氳銇勯悽鍛婃櫢闁哄倶鍊栫�氾拷**************/
+.datagrid-pager {
+	border-top:1px solid #95b8e7;
+	width:100%;
+	z-index:2;
+	left:0px;
+	bottom:0px;
+	border-radius:0;
+}
+.datagrid-wrap{
+	border:none;
+} 	
+.tf-toolbar{
+		border:none;
+		border-top:1px solid #8DB2E3;
+		border-bottom:1px solid #8DB2E3;
+}	
+ .panel-header{
+	height:31.5px;	
+} 	
+.panel-title{
+	line-height:21px;
+}
+/* 闂佽法鍠愰弸濠氬箯瀹勭増绂堥柛銉╃畺閺佹捇寮妶鍡楊伓閻犲洦鎸抽弫鎾诲棘閵堝棗顏�	 */
+.maplinebox{
+	width:120px;
+	height:100px;
+	position:absolute;
+	top:425px;
+	left:10px;	
+/* 	right:1px; */
+	z-index:999;
+}
+/* .maplinebox_1{
+	top:460px;		
+}
+.maplinebox_2{
+	top:525px;	
+} */
+.maplinebox p{
+	font-weight:bold;
+}
+.mapline{
+	display:inline-block;
+	width:50px;
+	height:5px;
+	border-radius:3px;
+	margin-right:5px;
+}
+	
+	
+	

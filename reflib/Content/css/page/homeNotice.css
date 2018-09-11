@@ -1,0 +1,18 @@
+﻿.main .left-top {width:50%;height:320px;margin:0px;float:left;}
+.main .right-top {width:50%;height:320px;float:right;margin:0px;}
+.main .left-bottom {width:50%;height:250px;margin:0px;float:left;margin-top:2px;}
+.main .right-bottom {width:50%;height:250px;float:right;margin:0px;margin-top:2px;}
+
+.content-left {border-right:1px solid #ADD8E6;height:100%;}
+.content-right {border-left:1px solid #ADD8E6;height:100%;}
+
+.panelContent {overflow:hidden;height:100%;}
+.panelContent ul{margin-left:8px;margin-top:10px;margin-bottom:40px;}
+.panelContent ul li{list-style:none;line-height:40px;}
+.panelContent ul li a{font-size:15px;color:blue;}
+
+.parentChartsDiv {height:310px;width:560px;}
+.parentChartsDiv .chartsMain {height:270px;width:560px;}
+
+.rightTD {text-align:right; width:120px;}
+.centerTD{text-align:center;}

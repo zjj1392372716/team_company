@@ -1,0 +1,166 @@
+/* 闂備礁婀遍…鍫ニ囬悽绋跨闁跨噦鎷� */
+.icon{padding-left:18px;display:inline-block; line-height:18px;}
+.icon32{padding-left:34px;display:inline-block; line-height:34px;}
+
+.icon-exclamation{background:url(icon/screen_full.png) no-repeat ;float:left;z-index:3;position:relative;left:0px;top:13px;margin-left:8px;background-size:19px 16px;width:18px;}
+.togglecss{margin-top:-100px;}
+.icon-map_edit{background:url('icon/map_edit.png') no-repeat}
+.icon-arrow_right{background:url('icon/arrow_right.png') no-repeat}
+.icon-arrow_left{background:url('icon/arrow_left.png') no-repeat}
+.icon-add{background:url(icon/add.png)  no-repeat !important;}
+.icon-edit{background:url(icon/edit.png)  no-repeat !important;}
+.icon-key{background:url('icon/key.png') no-repeat}
+.icon-search{background:url('icon/search.png') no-repeat}
+.icon-user{background:url("icon/user.png") no-repeat;}
+.icon-user_go{background:url("icon/user_go.png") no-repeat;}
+.icon-ok{background:url('icon/ok.png') no-repeat}
+.icon-refresh{background:url('icon/refresh.png') no-repeat}
+.icon-cancel{background:url('icon/cancel.png') no-repeat}
+.icon-no{background:url('icon/no.png') no-repeat}
+.icon-back{background:url('icon/back.png') no-repeat}
+.icon-startusing{background:url('icon/startusing.png') no-repeat}
+.icon-endusing{background:url('icon/endusing.png') no-repeat}
+.icon-recover{background:url('icon/recover.png') no-repeat}
+.icon-dustbin{background:url('icon/dustbin.png') no-repeat}
+.panel-title{text-indent:5px;}
+.icon-prohibitionofuse{background:url('icon/prohibitionofuse.png') no-repeat}
+.icon-continue{background:url('icon/continue.png') no-repeat}
+.icon-disabledState{background:url('icon/endusing.png')no-repeat;margin-top: 2px;}/* ???? */
+.icon-activeState{background:url('icon/startusing.png')no-repeat;margin-top: 2px;}/* ???? */
+.icon-videoshow{background:url('icon/videoshow.png') no-repeat}
+.icon-layer{background:url('icon/layer.png') no-repeat}
+.icon-columnPermissions{background:url('icon/columnPermissions.png') no-repeat}
+.icon-newoilledger{background:url('icon/newoilledger.png') no-repeat}
+.icon-planstart{background:url('icon/planstart.png') no-repeat}
+.icon-receipt{background:url('icon/receipt.png') no-repeat}
+.icon-inport{background:url('icon/inport.png') no-repeat}
+.icon-download{background:url('icon/download.png') no-repeat}
+.icon-preplanmanagment{background:url('icon/preplanmanagment.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+.icon-preplandymaic{background:url('icon/preplandymaic.png') no-repeat}
+/*缂傚倷绶￠崹闈涚暦閻㈤潧鍨濋柧蹇撴贡娑撳秹鏌ㄥ☉妯侯仾闁稿鎷�*/
+.icon-systemMange{background:url('icon/systemMange.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+/*闂傚倷绀佺亸鍛村箯閻戣姤鐓曢柣鎴濇閺嬨倖銇勯幘瀛樺�愰柟顔肩埣閺佹捇鏁撻敓锟�*/
+.icon-SalesManagement{background:url('icon/SalesManagement.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+/*闂佽崵濮甸崝鎴﹀礉瀹ュ＆澶愭晸閿燂拷*/
+.icon-InspectionManage{background:url('icon/InspectionManage.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+/*闂備焦鐪归崹濠氬窗瀹ュ棭娈介柨鐕傛嫹*/
+.icon-ProductionManage{background:url('icon/ProductionManage.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+/*濠电偛顕慨鐢稿箰閸濄儴濮抽柨鐕傛嫹*/
+.icon-StorageManage{background:url('icon/StorageManage.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+/*闂佽瀛╃粙鎺椼�冮崨鏉戣Е闁跨噦鎷�*/
+.icon-DictManage{background:url('icon/DictManage.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+/*闂佽楠哥粻宥夊垂濞差亜鏄ラ柨鐕傛嫹*/
+.icon-CustomerRelationship{background:url('icon/CustomerRelationship.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+/*濠电偛鐡ㄧ划宀勫箹椤愶箑绠熼柨鐕傛嫹*/
+.icon-PersonnelManage{background:url('icon/PersonnelManage.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+/*闂備胶绮妵娑㈠疾濠婂懐鐭堥柨鐕傛嫹*/
+.icon-Logis{background:url('icon/logis.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+/*闂佸搫顦弲鐐存叏閵堝绀勯柨鐕傛嫹*/
+.icon-Trace{background:url('icon/trace.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+
+.icon-wl{background:url('icon/wl.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+.icon-traceInfo{background:url('icon/traceInfo.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+.icon-wlInfo{background:url('icon/wlInfo.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+.icon-energy_4{background:url('icon/energy_4.png') no-repeat;left:10px;margin-top:-10px;background-size:22px 22px;width:22px;height:22px;}
+/*闂備胶顭堢换妤�鈻斿☉銏″仼闁跨噦鎷�*/
+.icon-facility{background:url('icon/facility.png') no-repeat;background-size:16px 16px;}
+.icon-stoparea{background:url('icon/stoparea.png') no-repeat;background-size:16px 16px;}
+.icon-dustbin{background:url('icon/dustbin.png') no-repeat;background-size:16px 16px;}
+.icon-worktemplate{background:url('icon/worktemplate.png') no-repeat;background-size:16px 16px;}
+.icon-readytemplate{background:url('icon/readytemplate.png') no-repeat;background-size:16px 16px;}
+.icon-templet_2{background:url('icon/templet_2.png') no-repeat;}
+.icon-commands_1{background:url('icon/commands_1.png') no-repeat;background-size:16px 16px;}
+.icon-commands_2{background:url('icon/commands_2.png') no-repeat;background-size:16px 16px;}
+.icon-commands_3{background:url('icon/commands_3.png') no-repeat;background-size:16px 16px;}
+.icon-commands_4{background:url('icon/commands_4.png') no-repeat;background-size:16px 16px;}
+.icon-energy_1{background:url('icon/energy_1.png') no-repeat;background-size:16px 16px;}
+.icon-energy_2{background:url('icon/energy_2.png') no-repeat;background-size:16px 16px;}
+.icon-energy_3{background:url('icon/energy_3.png') no-repeat;background-size:16px 16px;}
+.icon-carmanage_1{background:url('icon/carmanage_1.png') no-repeat;background-size:16px 16px;}
+.icon-carmanage_2{background:url('icon/carmanage_2.png') no-repeat;background-size:16px 16px;}
+.icon-carmanage_3{background:url('icon/carmanage_3.png') no-repeat;background-size:16px 16px;}
+.icon-carmanage_4{background:url('icon/carmanage_4.png') no-repeat;background-size:16px 16px;}
+.icon-equipment_1{background:url('icon/equipment_1.png') no-repeat;background-size:16px 16px;}
+.icon-equipment_2{background:url('icon/equipment_2.png') no-repeat;background-size:16px 16px;}
+.icon-equipment_3{background:url('icon/equipment_3.png') no-repeat;background-size:16px 16px;}
+.icon-equipment_4{background:url('icon/equipment_4.png') no-repeat;background-size:16px 16px;}
+.icon-personInfo_1{background:url('icon/personInfo_1.png') no-repeat;background-size:16px 16px;}
+.icon-personInfo_2{background:url('icon/personInfo_2.png') no-repeat;background-size:16px 16px;}
+.icon-personInfo_3{background:url('icon/personInfo_3.png') no-repeat;background-size:16px 16px;}
+.icon-report_1{background:url('icon/report_1.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_1{background:url('icon/systemMange_1.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_2{background:url('icon/systemMange_2.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_3{background:url('icon/systemMange_3.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_4{background:url('icon/systemMange_4.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_5{background:url('icon/systemMange_5.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_6{background:url('icon/systemMange_6.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_7{background:url('icon/systemMange_7.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_8{background:url('icon/systemMange_8.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_9{background:url('icon/systemMange_9.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_10{background:url('icon/systemMange_10.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_11{background:url('icon/systemMange_11.png') no-repeat;background-size:16px 16px;}
+.icon-systemMange_import{background:url('icon/systemMange_import.png') no-repeat;background-size:16px 16px;}
+.icon-print{background:url('icon/printer.png') no-repeat;background-size:16px 16px;}
+.icon-receipt{background:url('icon/receipt.png') no-repeat;background-size:16px 16px;}
+.icon-toVoid{background:url('icon/toVoid.png') no-repeat;background-size:16px 16px;}
+.icon-setUser{background:url('icon/setUser.png') no-repeat;background-size:16px 16px;}
+.icon-planProduct{background:url('icon/planProduct.png') no-repeat;background-size:16px 16px;}
+/* 闂佽崵濮甸崝鎴﹀礉瀹ュ＆澶愭晸閿燂拷 */
+.icon-qt1{background:url('icon/qt1.png') no-repeat;}
+/*濠电偛顕慨鐢稿箰閸濄儴濮抽弶鍫涘妿椤╄尙锟界櫢鎷烽柨鐔诲Г椤ㄣ儵鏁撻敓锟�*/
+.icon-delivery{background:url('icon/delivery.png') no-repeat;}
+.icon-warehouse{background:url('icon/warehouse.png') no-repeat;}
+.icon-godownentry{background:url('icon/godownentry.png') no-repeat;}
+.icon-employee{background:url('icon/employee.png') no-repeat;}
+/*闂備焦鐪归崹濠氬窗瀹ュ棭娈介柛銉ｅ妿椤╄尙锟界櫢鎷烽柨鐔诲Г椤ㄣ儵鏁撻敓锟�*/
+.icon-production{background:url('icon/production.png') no-repeat;}
+.icon-team{background:url('icon/team.png') no-repeat;}
+.icon-teammember{background:url('icon/teammember.png') no-repeat;}
+/*闂傚倷绀佺亸鍛村箯閻戣姤鐓曢柣鎴濇閺嬫瑧绱掗妸銏℃珖闁汇儺浜弫鎾绘晸閿燂拷*/
+.icon-salesOrder{background:url('icon/salesOrder.png') no-repeat;}
+/*闂佽楠哥粻宥夊垂濞差亜鏄ユ繛鎴炵懅椤╄尙锟界櫢鎷烽柨鐔诲Г椤ㄣ儵鏁撻敓锟�*/
+.icon-customer{background:url('icon/customer.png') no-repeat;}
+.icon-stateHistory{background:url('icon/stateHistory.png') no-repeat;}
+/*闂佽瀛╃粙鎺椼�冮崨鏉戣Е闁跨喕妫勯湁婵犲﹤鍟伴悘鍗炍旈悪鍛*/
+.icon-layer{background:url('icon/layer.png') no-repeat;}
+.icon-printer{background:url('icon/printer.png') no-repeat;}
+
+
+/*
+* zgy 2017-12-22 13:44
+*/
+.accordion-header{height:24px;}
+.panel-with-icon{line-height:24px;height:24px;text-indent:15px;}
+
+
+/*
+* 璁㈠崟鐘舵��  
+*/
+.icon-state1{background:url('icon/icon-orderState1.png') no-repeat;background-size:16px 16px;}
+.icon-state2{background:url('icon/icon-orderState2.png') no-repeat;background-size:16px 16px;}
+.icon-state3{background:url('icon/icon-orderState3.png') no-repeat;background-size:16px 16px;}
+.icon-state4{background:url('icon/icon-orderState4.png') no-repeat;background-size:16px 16px;}
+.icon-state5{background:url('icon/icon-orderState5.png') no-repeat;background-size:16px 16px;}
+.icon-state8{background:url('icon/icon-orderState8.png') no-repeat;background-size:16px 16px;}
+.icon-state9{background:url('icon/icon-orderState9.png') no-repeat;background-size:16px 16px;}
+.icon-state10{background:url('icon/icon-orderState10.png') no-repeat;background-size:16px 16px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

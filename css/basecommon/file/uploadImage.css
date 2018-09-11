@@ -1,0 +1,99 @@
+.modal{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,0.5);
+	opacity:0;
+	visibility:hidden;
+	transform:scale(1.1);
+	transition:visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+	z-index:1000;
+}
+
+.show-modal{
+	opacity:1;
+	visibility:visible;
+	transform:scale(1.0);
+	transition:visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+.modal-header {
+	font-size:20px;
+	font-weight:bolder;
+	padding-left:1.5rem;
+	padding-bottom:0.5rem;
+	border-bottom:solid 1px #e9ecef;
+}
+.modal-content {
+	position: absolute;
+	top:50%;
+	left:50%;
+	height:45rem;
+	transform:translate(-50%,-50%);
+	background-color:white;
+	padding-top: 0.5rem;
+	width:70rem;
+	border-radius: 0.5rem;
+	overflow-y:auto;
+}
+
+.close-button {
+	float: right;
+	width: 1.5rem;
+	height:1.5rem;
+	line-height: 1.5rem;
+	text-align: center;
+	margin-right:10px;
+	cursor: pointer;
+	border-radius: 0.25rem;
+	background-color: white;
+	display:inline-block;
+}
+.close-button:hover {
+	background-color:darkgray;
+}
+.gallery{
+	width:100%;
+}
+.image-upload{
+	margin-top:15px;
+	margin-left:36px;
+	margin-bottom:20px;
+	width:20rem;
+	height:20rem;
+	border:2px solid red;
+	display:inline-block;
+}
+.subInlineBlock{
+	display:block !important;
+}
+.image-upload input {
+	display:none;
+}
+.image-upload img{
+	margin: 50px 50px;
+	cursor: pointer;
+}
+.singleImage{
+	margin:0 !important;
+	border:0;
+	width:20rem;
+	height:20rem;
+}
+.tooltiptext{
+	visibility:hidden;
+	width:85px;
+	background-color:black;
+	color:#fff;
+	text-align:center;
+	border-radius:6px;
+	padding: 5px 0;
+	position:absolute;
+	left:20px;
+	top:20px;
+	z-index:1;
+}
+.image-upload:hover .tooltiptext{
+	visibility:visible;
+}

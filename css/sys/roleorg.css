@@ -1,0 +1,24 @@
+/* 组织机构 */
+.sp-container {
+	height:320px;
+	width:195px;
+}
+.tf-toolbar{
+	border-left:1px solid #8DB2E3;
+	border-right:1px solid #8DB2E3;
+}
+.tabs-header{	
+	border-left:1px solid #8DB2E3!important;
+	border-right:1px solid #8DB2E3!important;
+}
+.topscon{
+	margin-top:-2px;
+	border-left:1px solid #8DB2E3;
+	border-right:1px solid #8DB2E3;
+}
+.datagrid-wrap{
+	border:1px solid #8DB2E3;
+} 
+/* .panel-header{
+    border:none!important;
+} */

@@ -1,0 +1,243 @@
+/* 水平导航栏 */
+:root {
+	--border-size: 2px;
+	--border-style: solid;
+	--border-color: #A5C9FB;
+	--background-color: #F4F4F4;
+	--dialog-Height: 800px;
+	--infoDialog-Height:40px;
+}
+#stepContent span{
+	font-size:1.5em;
+	line-height:2em;
+	/*  */
+}
+
+#hoNavigateBar span{
+	margin:15px 15px;
+	display:inline-block;
+}
+#stepInfo{
+	width:85%;
+	float:right;
+	height:30px;
+}
+#stepInfo img{
+	width:100%;
+	height:40px;
+	/* padding-top:15px; */
+}
+#navigateBar{
+	width:100%;
+	height:var(--infoDialog-Height);
+	border-bottom:var(--border-size) var(--border-style) var(--border-color);
+}
+
+
+#info{
+	width:15%;
+	height:var(--infoDialog-Height);
+	border-right:var(--border-size) var(--border-style) var(--border-color);
+	background:var(--background-color);
+}
+
+#info span{
+	padding-left:20%;
+	color:blue;
+	font-weight:bold;
+}
+
+#contentInfo{
+	width:85%;
+	float:right;
+}
+#contentInfo span{
+	font-family:黑体;
+	font-weight:bolder;
+	font-size:2em;
+	margin-top:15px;
+	margin-left:15px;
+	display:inline-block;
+}
+
+.firstLine{
+	margin-left:30px;
+}
+.firstLine span{
+	font-size:1.5em !important;
+	font-weight:bold !important;
+	margin:0;
+}
+
+.secondLine{
+	margin-left:25px;
+	margin-top: 10px;
+}
+.secondLine span{
+	font-size:1.8em;
+	font-weight:normal;
+	margin:0;
+}
+/**
+文本域的样式
+*/
+.secondLine textarea{
+	width:75%;
+	height:80px;
+	font-size:2em;
+	padding:2px 4px;
+	border-radius: 10px;
+	margin-left:1px;
+}
+
+.unitInfo{
+	width:50%;
+	margin-top:20px;
+	border-top:var(--border-size) var(--border-style) var(--border-color);
+	display:inline-block;
+}
+.sunitInfo{
+	margin-top:2px !important;
+}
+.sunitInfo span{
+	margin-top:0 !important;
+}
+.customerInfof{
+	width:98%;
+	border-right:var(--border-size) var(--border-style) var(--border-color);
+	height:460px;
+	margin-left:2%;
+}
+.scustomerInfof{
+	height:auto !important;
+}
+.orgInfof{
+	float:right;
+	width:48%;
+	margin-top:20px;
+	border-top:var(--border-size) var(--border-style) var(--border-color);
+	padding-left:2%;
+}
+.tipInfo{
+	width:150px;
+	display:inline-block;
+	text-align:right;
+	font-size:0.8em;
+	font-weight:lighter;
+	margin:10px 10px;
+}
+.ctipInfo{
+	width:150px;
+	display:inline-block;
+	text-align:right;
+	font-size:0.6em;
+	font-weight:lighter;
+	margin:8px 8px;
+}
+.cInfo span{
+	font-size:1.8em;
+	font-weight:normal;
+	margin-left:0px !important;
+	margin-top:0 !important;
+}
+
+.selectCls{
+	width:40%;
+	height:30px;
+	margin-left:5px;
+}
+.secondStep{
+	width:85%;
+	float:right;
+	overflow-x:auto;
+	overflow-y:auto;
+}
+.secondStep span{
+	font-family:黑体;
+	font-weight:bolder;
+	font-size:2em;
+	margin-top:15px;
+	margin-left:15px;
+	display:inline-block;
+}
+.ppInfo button{
+	width:80px;
+	height:30px;
+	margin-left:10px;
+}
+.sppInfo{
+	border-top:var(--border-size) var(--border-style) var(--border-color);
+}
+.sppInfo span{
+	margin-top:0 !important;
+}
+.dgSN{
+	margin:10px;
+}
+
+.dgSN span{
+	margin-left:0px !important;
+	margin-top:0 !important;
+}
+.thirdStep{
+	width:85%;
+	float:right;
+}
+/* .s_dgSN{
+	width:100%;
+	margin-left:5px;
+} */
+
+.thirdStep span{
+	font-family:黑体;
+	font-weight:bolder;
+	font-size:2em;
+	margin-top:15px;
+	margin-left:15px;
+	display:inline-block;
+}
+
+/*垂直导航栏*/
+#hoNavigateBar{
+	width:15%;
+	height:var(--dialog-Height);
+	border-right:var(--border-size) var(--border-style) var(--border-color);
+	background:var(--background-color);
+}
+/* 左上角的导航格 */
+#vBreif{
+	width:20%;
+	height:30px;
+	border-bottom:var(--border-size) var(--border-style) var(--border-color);
+	background:#E5E5E5;
+}
+.redX{
+	color:red;
+}
+/**
+	定义文本框的样式
+*/
+.baseInfo input{
+	width:20%;
+	height:30px;
+	font-size:2em;
+	padding:2px 4px;
+	border-radius: 10px;
+}
+.ctextbox{
+	margin-left:1px;
+	width:200px;
+	height:25px;
+	font-size:2em;
+	padding:2px 4px;
+	border-radius: 5px;
+}
+/*
+* 提示符的样式
+*/
+::placeholder{
+	font-size:16px;
+	opacity: 0.6;
+	text-align: left;
+	line-height:30px;
+}
